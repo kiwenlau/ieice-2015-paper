@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (sjis.euc) (TeX Live 2015) (preloaded format=platex 2015.9.5)  6 SEP 2015 00:16
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (sjis.euc) (TeX Live 2015) (preloaded format=platex 2015.9.5)  6 SEP 2015 02:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -85,22 +85,6 @@ File: dvips.def 2014/10/14 v3.0j Driver-dependent file (DPC,SPQR)
 \Gin@req@width=\dimen132
 )
 
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.10 íW
-       %\usepackage{latexsym}
-? 
-! Interruption.
-\GenericError  ...                                
-                                                  \endgroup 
-l.10 íW
-       %\usepackage{latexsym}
-? 
-
 Class ieicej Warning: Author's name "ÂàòÂáØ" doesn't have a space.
 
 Missing character: There is no ^^e0 in font cmr9!
@@ -121,47 +105,51 @@ Missing character: There is no ^^80 in font cmr9!
 Class ieicej Warning: Author's name "„Çà„Åó„Åá„·U„Ä^^80„Åè„·i„AÅÖ·J" doesn't ha
 ve a space.
 
-No file docker.aux.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (./docker.aux)
 \openout1 = `docker.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <9> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 46.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 49.
 LaTeX Font Info:    External font `goth9 at8.8711pt' loaded for size
-(Font)              <9> on input line 46.
-LaTeX Font Info:    External font `min8 at8.1318pt' loaded for size
-(Font)              <8> on input line 52.
-[1
-
-
-]
+(Font)              <9> on input line 49.
 LaTeX Font Info:    External font `min10 at13.307pt' loaded for size
-(Font)              <12> on input line 52.
+(Font)              <12> on input line 55.
 LaTeX Font Info:    External font `min10 at11.089pt' loaded for size
-(Font)              <10.95> on input line 52.
+(Font)              <10.95> on input line 55.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 52.
+(Font)              <10.95> on input line 55.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 52.
+(Font)              <8> on input line 55.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 52.
+(Font)              <6> on input line 55.
+LaTeX Font Info:    External font `min8 at8.1318pt' loaded for size
+(Font)              <8> on input line 55.
 LaTeX Font Info:    External font `min6 at6.6533pt' loaded for size
-(Font)              <6> on input line 52.
+(Font)              <6> on input line 55.
 Missing character: There is no ^^e0 in font cmr10!
 Missing character: There is no ^^80 in font cmr10!
 Missing character: There is no ^^e5 in font cmr10!
@@ -169,166 +157,134 @@ Missing character: There is no ^^80 in font cmr10!
 Missing character: There is no ^^80 in font cmr10!
 Missing character: There is no ^^80 in font cmr10!
 
-Overfull \hbox (120.93246pt too wide) in paragraph at lines 52--52
+Overfull \hbox (120.93246pt too wide) in paragraph at lines 55--55
 [][] 
  []
 
 LaTeX Font Info:    External font `min10 at9.6104pt' loaded for size
-(Font)              <10> on input line 52.
+(Font)              <10> on input line 55.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 52.
+(Font)              <7> on input line 55.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 52.
+(Font)              <5> on input line 55.
 LaTeX Font Info:    External font `min7 at7.3926pt' loaded for size
-(Font)              <7> on input line 52.
+(Font)              <7> on input line 55.
 LaTeX Font Info:    External font `min5 at5.1748pt' loaded for size
-(Font)              <5> on input line 52.
+(Font)              <5> on input line 55.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 52.
+(Font)              <9> on input line 55.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10.95> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 54.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 57.
 LaTeX Font Info:    External font `goth10 at11.089pt' loaded for size
-(Font)              <10.95> on input line 54.
+(Font)              <10.95> on input line 57.
 LaTeX Font Info:    External font `min10 at17.742pt' loaded for size
-(Font)              <17.28> on input line 62.
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <8> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 62.
-LaTeX Font Info:    External font `goth8 at8.1318pt' loaded for size
-(Font)              <8> on input line 62.
-
-LaTeX Warning: Reference `ieicej@lastpage' on page 2 undefined on input line 62
-.
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 62.
+(Font)              <17.28> on input line 65.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 65.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 62.
- [2
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 65.
+ [1
 
-] [3]
+
+] [2]
 File: 1_Tentative_user_scenario.pdf Graphic file (type eps)
 
 <1_Tentative_user_scenario.pdf>
-Overfull \hbox (139.97293pt too wide) in paragraph at lines 87--88
+Overfull \hbox (139.97293pt too wide) in paragraph at lines 91--92
  [] 
  []
 
-
-LaTeX Warning: Reference `bench_nodes_info' on page 1 undefined on input line 1
-22.
-
-
-LaTeX Warning: Reference `bench_img_l' on page 1 undefined on input line 128.
-
-
-LaTeX Warning: Reference `bench_img_l' on page 1 undefined on input line 129.
-
-
-LaTeX Warning: Reference `bench_set_l' on page 1 undefined on input line 211.
-
-
-Overfull \hbox (10.76173pt too wide) in paragraph at lines 215--228
+[3]
+Overfull \hbox (10.76173pt too wide) in paragraph at lines 219--232
 [][] 
  []
 
 File: 2_Total_benchmark_time.pdf Graphic file (type eps)
 <2_Total_benchmark_time.pdf>
-Overfull \hbox (139.97293pt too wide) in paragraph at lines 236--237
+Overfull \hbox (139.97293pt too wide) in paragraph at lines 240--241
  [] 
  []
-
-
-LaTeX Warning: Reference `t_bench_t' on page 1 undefined on input line 243.
-
-
-LaTeX Warning: Reference `bench_img_l' on page 1 undefined on input line 243.
 
 [4]
 File: 3_Average_total_benchmark_time.pdf Graphic file (type eps)
  <3_Average_total_benchmark_time.pdf>
-Overfull \hbox (139.97293pt too wide) in paragraph at lines 250--251
+Overfull \hbox (139.97293pt too wide) in paragraph at lines 254--255
  [] 
  []
-
-
-LaTeX Warning: Reference `avg_bench_time' on page 1 undefined on input line 257
-.
-
-
-LaTeX Warning: Reference `lat_band' on page 1 undefined on input line 260.
 
 File: 4_push_and_pull_time.pdf Graphic file (type eps)
 <4_push_and_pull_time.pdf>
-Overfull \hbox (139.97293pt too wide) in paragraph at lines 279--280
+Overfull \hbox (139.97293pt too wide) in paragraph at lines 283--284
  [] 
  []
 
-
-LaTeX Warning: Reference `ppt' on page 1 undefined on input line 286.
-
-
-LaTeX Warning: Reference `ppt' on page 1 undefined on input line 288.
-
-
-LaTeX Warning: Reference `ppt' on page 1 undefined on input line 291.
-
 [5]
-Overfull \hbox (67.22939pt too wide) in paragraph at lines 299--312
+Overfull \hbox (67.22939pt too wide) in paragraph at lines 303--316
 [][] 
  []
 
-
-LaTeX Warning: Reference `t_bench_t' on page 1 undefined on input line 318.
-
-
-LaTeX Warning: Reference `avg_bench_time' on page 1 undefined on input line 318
-.
-
-
-LaTeX Warning: Reference `reg_fail_rate' on page 1 undefined on input line 320.
-
-
-
-LaTeX Warning: Reference `t_bench_t' on page 1 undefined on input line 323.
-
-[6]
 File: 5_pull_time_of_running_docker_registry_2.0.1_on_EC2_nodes.pdf Graphic fil
 e (type eps)
- <5_pull_time_of_running_docker_registry_2.0.1_on_EC2_nodes.pdf>
-Overfull \hbox (139.97293pt too wide) in paragraph at lines 329--330
+<5_pull_time_of_running_docker_registry_2.0.1_on_EC2_nodes.pdf>
+Overfull \hbox (139.97293pt too wide) in paragraph at lines 333--334
  [] 
  []
 
-
-LaTeX Warning: Reference `pull_time' on page 1 undefined on input line 337.
-
-
-LaTeX Warning: Reference `pull_time' on page 1 undefined on input line 341.
-
-
-LaTeX Warning: Citation `felter2014updated' on page 7 undefined on input line 3
-56.
-
-(./docker.bbl) [7] [8
+[6] (./docker.bbl
+Overfull \hbox (39.68195pt too wide) in paragraph at lines 4--6
+[]\OT1/cmr/m/n/7 Amazon, ``Ama-zon web ser-vices,'' 2015. https://aws.amazon.co
+m 
+ []
 
 
-] (./docker.aux)
+Overfull \hbox (37.11253pt too wide) in paragraph at lines 8--10
+[]\OT1/cmr/m/n/7 Microsoft, ``Mi-crosoft azure,'' 2015. https://azure.microsoft
+.com 
+ []
 
-LaTeX Warning: There were undefined references.
+
+Overfull \hbox (41.21248pt too wide) in paragraph at lines 12--14
+[]\OT1/cmr/m/n/7 Google, ``Google cloud plat-form,'' 2015. https://cloud.google
+.com 
+ []
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+Overfull \hbox (85.92795pt too wide) in paragraph at lines 30--32
+[]\OT1/cmr/m/n/7 Google, ``Google con-tainer en-gine,'' 2015. https://cloud.goo
+gle.com/container-
+ []
 
- ) 
+
+Overfull \hbox (173.21863pt too wide) in paragraph at lines 84--86
+[]\OT1/cmr/m/n/7 C.L. Paul Jack-son, ``Cgroups,'' 2015. https://www.kernel.org/
+doc/Documentation/cgroups/cgroups.txt 
+ []
+
+
+Overfull \hbox (149.22964pt too wide) in paragraph at lines 96--99
+[]\OT1/cmr/m/n/7 C. Foundry, ``War-den,'' 2015. https://docs.cloudfoundry.org/c
+oncepts/architecture/warden.html 
+ []
+
+
+Overfull \hbox (41.94853pt too wide) in paragraph at lines 101--103
+[]\OT1/cmr/m/n/7 Docker, ``Docker hub,'' 2015. https://hub.docker.com/u/kiwenla
+u 
+ []
+
+) [7] [8
+
+
+] (./docker.aux) ) 
 Here is how much of TeX's memory you used:
- 2521 strings out of 493777
- 45227 string characters out of 6151335
- 145314 words of memory out of 5000000
- 6042 multiletter control sequences out of 15000+600000
- 19333 words of font info for 75 fonts, out of 8000000 for 9000
+ 2694 strings out of 493777
+ 47572 string characters out of 6151335
+ 143625 words of memory out of 5000000
+ 6209 multiletter control sequences out of 15000+600000
+ 18560 words of font info for 72 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 27i,13n,22p,1305b,326s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,13n,22p,1367b,325s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on docker.dvi (8 pages, 34820 bytes).
+Output written on docker.dvi (8 pages, 39676 bytes).

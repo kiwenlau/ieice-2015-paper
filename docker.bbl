@@ -1,10 +1,108 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{amazon2015aws}
+ Amazon,
+``Amazon web services,'' 2015. https://aws.amazon.com
+
+\bibitem{microsoft2015azure}
+ Microsoft,
+``Microsoft azure,'' 2015. https://azure.microsoft.com
+
+\bibitem{google2015cloud}
+ Google,
+``Google cloud platform,'' 2015. https://cloud.google.com
+
+\bibitem{domenico2013clouds}
+D. Talia,
+``Clouds for scalable big data analytics,''
+Computer,
+vol.46, no.5, pp.98--101, 2013.
+
+\bibitem{docker2015}
+ Docker,
+``Docker,'' 2015. https://www.docker.com
+
+\bibitem{amazon2015container}
+ Amazon,
+``Amazon ec2 container service,'' 2015. https://aws.amazon.com/ecs/
+
+\bibitem{google2015container}
+ Google,
+``Google container engine,'' 2015. https://cloud.google.com/container-engine
 
 \bibitem{felter2014updated}
 W. Felter, A. Ferreira, R. Rajamony, and J. Rubio,
-``An updated performance comparison of virtual machines and {Linux}
-  containers,''
-technology,
-vol.28, p.32, 2014.
+``An updated performance comparison of virtual machines and linux containers,''
+IEEE International Symposium on Performance Analysis of Systems and Software,
+pp.171--172, 2015.
+
+\bibitem{tang2014performance}
+X. Tang, Z. Zhang, M. Wang, Y. Wang, Q. Feng, and J. Han,
+``Performance evaluation of light-weighted virtualization for paas in clouds,''
+Algorithms and Architectures for Parallel Processing,
+pp.415--428, 2014.
+
+\bibitem{morabito2015hypervisors}
+R. Morabito, J. Kj{\"a}llman, and M. Komu,
+``Hypervisors vs. lightweight virtualization: a performance comparison,''
+IEEE International Conference on Cloud Engineering,
+pp.386--393, 2015.
+
+\bibitem{gerlach2014skyport}
+W. Gerlach, W. Tang, K. Keegan, T. Harrison, A. Wilke, J. Bischof, M. D'Souza,
+  S. Devoid, D. Murphy-Olson, N. Desai, and F. Meyer,
+``Skyport: Container-based execution environment management for multi-cloud
+  scientific workflows,''
+Proceedings of the 5th International Workshop on Data-Intensive Computing in
+  the Clouds,
+pp.25--32, 2014.
+
+\bibitem{zheng2015integrating}
+C. Zheng and D. Thain,
+``Integrating containers into workflows: A case study using makeflow, work
+  queue, and docker,''
+The 8th International Workshop on Virtualization Technologies in Distributed
+  Computing,
+pp.31--38, 2015.
+
+\bibitem{boettiger2015introduction}
+C. Boettiger,
+``An introduction to docker for reproducible research,''
+ACM SIGOPS Operating Systems Review,
+vol.49, no.1, pp.71--79, 2015.
+
+\bibitem{tazro2015read}
+T. Ohta, O. Ogasawara, Y. Masatani, S. Yokoyama, and K. Aida,
+``Read between the lines: Closing gaps of materials and methods to build
+  workflow from the publication,'' 2015.
+
+\bibitem{michael2013namespaces}
+M. Kerrisk,
+``Namespaces in operation,'' 2013. https://lwn.net/Articles/531114/
+
+\bibitem{paul2015cgroups}
+C.L. Paul~Jackson,
+``Cgroups,'' 2015. https://www.kernel.org/doc/Documentation/cgroups/cgroups.txt
+
+\bibitem{openvz2015}
+ OpenVZ,
+``Openvz,'' 2015. https://openvz.org
+
+\bibitem{vserver2015}
+L. Vserver,
+``Linux vserver,'' 2015. http://linux-vserver.org
+
+\bibitem{warden2015}
+C. Foundry,
+``Warden,'' 2015.
+  https://docs.cloudfoundry.org/concepts/architecture/warden.html
+
+\bibitem{dockerhub2015}
+ Docker,
+``Docker hub,'' 2015. https://hub.docker.com/u/kiwenlau
+
+\bibitem{iperf2015}
+ iPerf,
+``iperf,'' 2015. https://iperf.fr
 
 \end{thebibliography}

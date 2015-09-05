@@ -1,0 +1,76 @@
+This is pBibTeX, Version 0.99d-j0.33 (utf8.euc) (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: docker.aux
+The style file: sieicej.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: myrefs.bib.bib
+Warning--entry type for "amazon2015aws" isn't style-file defined
+--line 1 of file myrefs.bib.bib
+Warning--entry type for "microsoft2015azure" isn't style-file defined
+--line 8 of file myrefs.bib.bib
+Warning--entry type for "google2015cloud" isn't style-file defined
+--line 15 of file myrefs.bib.bib
+Warning--entry type for "docker2015" isn't style-file defined
+--line 32 of file myrefs.bib.bib
+Warning--entry type for "amazon2015container" isn't style-file defined
+--line 39 of file myrefs.bib.bib
+Warning--entry type for "google2015container" isn't style-file defined
+--line 46 of file myrefs.bib.bib
+Warning--entry type for "michael2013namespaces" isn't style-file defined
+--line 111 of file myrefs.bib.bib
+Warning--entry type for "paul2015cgroups" isn't style-file defined
+--line 118 of file myrefs.bib.bib
+Warning--entry type for "openvz2015" isn't style-file defined
+--line 125 of file myrefs.bib.bib
+Warning--entry type for "vserver2015" isn't style-file defined
+--line 132 of file myrefs.bib.bib
+Warning--entry type for "warden2015" isn't style-file defined
+--line 139 of file myrefs.bib.bib
+Warning--entry type for "dockerhub2015" isn't style-file defined
+--line 146 of file myrefs.bib.bib
+Warning--entry type for "iperf2015" isn't style-file defined
+--line 153 of file myrefs.bib.bib
+You've used 21 entries,
+            4010 wiz_defined-function locations,
+            918 strings with 8074 characters,
+and the built_in function-call counts, 29652 in all, are:
+= -- 3709
+> -- 159
+< -- 0
++ -- 67
+- -- 46
+* -- 1313
+:= -- 3177
+add.period$ -- 21
+call.type$ -- 21
+change.case$ -- 21
+chr.to.int$ -- 0
+cite$ -- 21
+duplicate$ -- 377
+empty$ -- 2526
+format.name$ -- 184
+if$ -- 7633
+int.to.chr$ -- 0
+int.to.str$ -- 21
+missing$ -- 7
+newline$ -- 101
+num.names$ -- 21
+pop$ -- 315
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1601
+stack$ -- 0
+substring$ -- 6657
+swap$ -- 67
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 180
+width$ -- 23
+write$ -- 163
+is.kanji.str$ -- 1220
+(There were 13 warnings)

@@ -7,7 +7,9 @@
 
 \usepackage{cleveref}
 \usepackage{graphicx}
-ø%\usepackage{latexsym}
+
+
+%\usepackage{latexsym}
 %\usepackage[fleqn]{amsmath}
 %\usepackage[psamsfonts]{amssymb}
 
@@ -32,7 +34,8 @@
 % \paffiliate[1]{SOKENDAI (The Graduate University for Advanced Studies)}
 % \paffiliate[現在の所属ラベル]{和文所属}
 
-
+\usepackage{cite}
+\usepackage{url}
 
 \begin{document}
 
@@ -52,32 +55,33 @@ Big Data, Cloud Computing, Docker
 \maketitle
 
 \section{Introduction}
-With the rapid growth of data amount around the world, traditional compute platforms can hardly fulfill the requirements of big data storage and analysis. Cloud platforms, such as Amazon Web Services [1], Microsoft Azure [2] and Google Cloud Platform [3], are expected to be promising big data processing platforms as they can provide powerful, elastic and economical storage and computation ability. In addition, both IaaS, PaaS and SaaS can be adopted to implement big data analytics in the cloud [4]. In this paper, we focus on utilizing IaaS to process big data using applications built by users.
+With the rapid growth of data amount around the world, traditional compute platforms can hardly fulfill the requirements of big data storage and analysis. Cloud platforms, such as Amazon Web Services \cite{amazon2015aws}, Microsoft Azure \cite{microsoft2015azure} and Google Cloud Platform \cite{google2015cloud}, are expected to be promising big data processing platforms as they can provide powerful, elastic and economical storage and computation ability. In addition, both IaaS, PaaS and SaaS can be adopted to implement big data analytics in the cloud \cite{domenico2013clouds}. In this paper, we focus on utilizing IaaS to process big data using applications built by users.
 
 
-One of the biggest challenges to utilize clouds for big data processing is how to select resources to optimize the overall performance. In this context, resources mean data to be processed, applications processing data and clouds for running big data processing application. To initiate a big data processing on clouds, we need to transfer data to clouds, deploy big data processing applications on clouds and then run the applications. However, data, applications and clouds are distributed in different locations. The data can be stored in private infrastructures, public storage clouds or other data warehouses. Applications, which are packaged in Docker [5] images according to our assumption, can exist in public Docker registries, private Docker registries or local platforms. In addition, cloud platforms also locate in different geographical regions. Therefore, all resources should be carefully selected to minimize the total processing time, which includes the time of transferring data, deploying applications and processing data.
+One of the biggest challenges to utilize clouds for big data processing is how to select resources to optimize the overall performance. In this context, resources mean data to be processed, applications processing data and clouds for running big data processing application. To initiate a big data processing on clouds, we need to transfer data to clouds, deploy big data processing applications on clouds and then run the applications. However, data, applications and clouds are distributed in different locations. The data can be stored in private infrastructures, public storage clouds or other data warehouses. Applications, which are packaged in Docker \cite{docker2015} images according to our assumption, can exist in public Docker registries, private Docker registries or local platforms. In addition, cloud platforms also locate in different geographical regions. Therefore, all resources should be carefully selected to minimize the total processing time, which includes the time of transferring data, deploying applications and processing data.
 
 
-For big data analysis, transferring data and processing data will introduce significant overhead. A lot of researches studying data transfer and data processing have been conducted. However, the problem of deploying applications attracts less attention. As a matter of fact, deploying a big data analysis application in clouds is also nontrivial even for experienced programmers, not to mention data analysis users who possess limited computer skills. The development of Linux container technology like Docker, which is able to package applications into lightweight images, has changed the way of deploying application greatly. Theoretically, we can package any applications into Docker images, transfer these images to any cloud platform and build the big data analysis environment immediately. Furthermore, Cloud providers, e.g. Amazon Web Services, Google Cloud Platform, currently support Docker on their platforms [6, 7]. This can also help people to utilize multiple clouds without worry about vendor lock-in problem. In this paper, we assume that big data processing applications are packaged in Docker images. Thus, the Docker image transfer time accounts for an important part of the whole data analysis process, especially for applications consisting of lots of short running tasks.
+For big data analysis, transferring data and processing data will introduce significant overhead. A lot of researches studying data transfer and data processing have been conducted. However, the problem of deploying applications attracts less attention. As a matter of fact, deploying a big data analysis application in clouds is also nontrivial even for experienced programmers, not to mention data analysis users who possess limited computer skills. The development of Linux container technology like Docker, which is able to package applications into lightweight images, has changed the way of deploying application greatly. Theoretically, we can package any applications into Docker images, transfer these images to any cloud platform and build the big data analysis environment immediately. Furthermore, Cloud providers, e.g. Amazon Web Services, Google Cloud Platform, currently support Docker on their platforms \cite{amazon2015container,google2015container}. This can also help people to utilize multiple clouds without worry about vendor lock-in problem. In this paper, we assume that big data processing applications are packaged in Docker images. Thus, the Docker image transfer time accounts for an important part of the whole data analysis process, especially for applications consisting of lots of short running tasks.
 
 
-Docker, as the most successful and popular container tool, has gained a lot of attractions from both industry and academia. Recent researches [8, 9, 10] find that Docker shows better performance than the virtual machine technology. Other researchers concentrate on using Docker for packaging applications to solve the ``dependency hell'' problem [11, 12, 13, 14]. To the best of our knowledge, the performance of Docker image transfer has not been discussed.
+Docker, as the most successful and popular container tool, has gained a lot of attractions from both industry and academia. Recent researches \cite{felter2014updated,tang2014performance,morabito2015hypervisors} find that Docker shows better performance than the virtual machine technology. Other researchers concentrate on using Docker for packaging applications to solve the ``dependency hell'' problem \cite{gerlach2014skyport,zheng2015integrating,boettiger2015introduction,tazro2015read}. To the best of our knowledge, the performance of Docker image transfer has not been discussed.
 
 In this paper, we present the performance evaluation results of Docker image transfer over LAN/WAN settings. We launched some benchmarks to transfer Docker images from the same source node to three different destination nodes. NII Tokyo node is the source node and destination nodes are NII Chiba, EC2 Tokyo and EC2 Virginia Nodes. NII Chiba Node and the source node are located in geographically different sites but connected through the same VLAN of our institute, while EC2 Tokyo node and EC2 Virginia Node are connected with the source node through WAN. In addition, only EC2 Virginia Node resides in US and other nodes are located in Japan. The experimental results reveal that Docker image transfer time shows strong linear relationship with the image size. While Docker registry 2.0.1 showed better performance and reliability than Docker registry 0.9.1, we observed the performance instability we ran the Docker registry 2.0.1 on EC2 nodes. In addition, running Docker registry on local or remote nodes present similar performance.
 
+The remainder of the paper is organized as follows. Section 2 introduces Docker and related work, providing necessary background to understanding the rest of the paper. Section 3 provides the tentative scenario of deploying big data analysis application on cloud platforms. Section 4 shows the experimental setup while section 5 presents the experiment results. Finally, we conclude the work presented in this paper in Section 6.
 
 \section{Background and related work}
 \subsection{Docker}
-The remainder of the paper is organized as follows. Section 2 introduces Docker and related work, providing necessary background to understanding the rest of the paper. Section 3 provides the tentative scenario of deploying big data analysis application on cloud platforms. Section 4 shows the experimental setup while section 5 presents the experiment results. Finally, we conclude the work presented in this paper in Section 6.
+Compared to virtual machine technology, the Linux container technology is a more lightweight virtualization technology. Multiple containers running on the same host share the same OS with the host while coexisting virtual machines run their independent OSs. Therefore, the container technology can provide near native performance, higher density and faster start/stop time. Modern linux kernel features, such as Namespaces \cite{michael2013namespaces} and Cgroups \cite{paul2015cgroups}, are building blocks for container technology. Namespaces are the key to isolate containers with the host and other containers, and Cgroups can help containers control the usage of resources like CPU and memory. Although the container technology has existed for over a decade, only recently have it gained increasing attraction from both industry and academia. Due to some advanced features described later, Docker is becoming a standard Linux container tool rapidly.
 
-success of Docker. The ability to package an application and its dependencies into a lightweight Docker image is another advanced feature of Docker. Therefore, we can download Docker images and run the application in any Docker enabled host without worry about laborious installation processes. This also helps us a lot to quickly deploy big data applications in clouds.
+Docker, the most popular and successful container tool, outperforms other container pioneers like OpenVZ \cite{openvz2015}, Linux VServer \cite{vserver2015} and Warden \cite{warden2015}. By using Docker, we can easily create, stop, restart and delete containers. This great user friendliness contributes a lot for thesuccess of Docker. The ability to package an application and its dependencies into a lightweight Docker image is another advanced feature of Docker. Therefore, we can download Docker images and run the application in any Docker enabled host without worry about laborious installation processes. This also helps us a lot to quickly deploy big data applications in clouds.
 
 
 \subsection{Related Work}
-The performances of Docker have been discussed in literatures. By running a suite of workloads that stress the CPU, memory, storage and networking resources, the research group in IBM found that the performances on Docker were in equal or better than those on KVM in almost all cases [8].  Tang [9] compared KVM and several lightweight virtualization techniques, including Lmctfy, ZeroVM and Docker. The result showed that Docker had better performance, faster deployment and weaker isolation. Morabito [10] presented a detailed performance evaluation of KVM, Docker, LXC and OSv. Unsurprisingly, the performance overhead of Docker could be considered almost negligible.
+The performances of Docker have been discussed in literatures. By running a suite of workloads that stress the CPU, memory, storage and networking resources, the research group in IBM found that the performances on Docker were in equal or better than those on KVM in almost all cases \cite{felter2014updated}.  Tang \cite{tang2014performance} compared KVM and several lightweight virtualization techniques, including Lmctfy, ZeroVM and Docker. The result showed that Docker had better performance, faster deployment and weaker isolation. Morabito \cite{morabito2015hypervisors} presented a detailed performance evaluation of KVM, Docker, LXC and OSv. Unsurprisingly, the performance overhead of Docker could be considered almost negligible.
 
 
-Other researchers are interested in using Docker to package applications into Docker images, making software installation more convenient. For example, Skyport [11] is the extension of the data analysis platform---AWE/Shock and it greatly reduces the heavy burden of providing the environment to execute complex workflows. Zheng [12] proposed to utilize Docker to deliver workflow execution environment and focused on how to best integrate Docker into workflow system. Boettiger [13] claimed that Docker was a promising tool to address the challenges of scientific reproducibility. Ohta [14] discussed a platform of reproducible computer experiments using Docker for genome sequencing applications.
+Other researchers are interested in using Docker to package applications into Docker images, making software installation more convenient. For example, Skyport \cite{gerlach2014skyport} is the extension of the data analysis platform---AWE/Shock and it greatly reduces the heavy burden of providing the environment to execute complex workflows. Zheng \cite{zheng2015integrating} proposed to utilize Docker to deliver workflow execution environment and focused on how to best integrate Docker into workflow system. Boettiger \cite{boettiger2015introduction} claimed that Docker was a promising tool to address the challenges of scientific reproducibility. Ohta \cite{tazro2015read} discussed a platform of reproducible computer experiments using Docker for genome sequencing applications.
 
 \section{Tentative user scenario}
 
@@ -126,7 +130,7 @@ The Docker registry ran in Docker container instead of on the host node so that 
 
 \subsection{Benchmarks}
 We selected a set of Docker images presented in \cref{bench_img_l} for our benchmark. For each benchmark setting, we evaluated the transfer time of 31 different Docker images with sizes ranging from 1.3MB to 1.3GB.
-\cref{bench_img_l} shows the detailed information about these images and all images can be obtained from Docker Hub [20].
+\cref{bench_img_l} shows the detailed information about these images and all images can be obtained from Docker Hub \cite{dockerhub2015}.
 These images have different image sizes and each image consists of different number of layers.
 Furthermore, each layer of a Docker image also shows different size.
 We transferred each Docker image for 10 times and then calculated the average transfer time.
@@ -256,7 +260,7 @@ This irrational phenomenon will be analyzed in detail later and we can get some 
 
 \cref{avg_bench_time} presents the average of three repeated benchmarks categorized by the destination node.
 It shows that the performance of transferring Docker images from NII Tokyo Node to NII Chiba Nodes is slightly better than to EC2 Nodes, while transferring Docker images to EC2 Virginia node shows the worst performance because it locates in US.
-We measured the latency and bandwidth between the source node and the destination nodes using ping and iperf [21], respectively.
+We measured the latency and bandwidth between the source node and the destination nodes using ping and iperf \cite{iperf2015}, respectively.
 \cref{lat_band} shows the latency and the bandwidth between NII Tokyo Node and three destination nodes. We can see that the benchmark results are in line with the bandwidth.
 
 \begin{table}[ht]
@@ -353,17 +357,10 @@ In this paper, we evaluated Docker image transfer time as the first step to tack
 
 In the future, we intend to investigate the performance instability of running Docker registry 2.0.1 on EC2 nodes. This can help us understand the Docker image transfer performance better. Furthermore, we plan to build the mathematical model of Docker image transfer time by running more benchmarks.
 
-asdfdasfdsafda \cite{felter2014updated}
-
-
-\ack %% 謝辞
-Thanks for everthing.
 
 \bibliographystyle{sieicej}
 \bibliography{myrefs.bib}
 
-\appendix
-appendix here
 
 % \begin{biography}
 % \profile{}{}{}
