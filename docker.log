@@ -1,0 +1,334 @@
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (sjis.euc) (TeX Live 2015) (preloaded format=platex 2015.9.5)  6 SEP 2015 00:16
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**docker.tex
+(./docker.tex
+pLaTeX2e <2006/11/10> (based on LaTeX2e <2015/01/01> patch level 0)
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(./ieicej.cls
+Document Class: ieicej 2010/04/05 v1.6a for Transactions of IEICE
+\@JQ=\dimen118
+\@Q=\dimen119
+\@EM=\dimen120
+\c@@paper=\count81
+LaTeX Font Info:    External font `min9 at8.8711pt' loaded for size
+(Font)              <9> on input line 442.
+\@authorlist=\toks15
+\@authorcnt=\count82
+\@alcnt=\count83
+\p@alcnt=\count84
+\@totalnumber=\count85
+\authornamesep=\dimen121
+\@spcnt=\count86
+\alignorder=\count87
+\totalnumberm@ne=\count88
+\@authorcntp@ne=\count89
+\chk@alcnt=\count90
+\chk@p@alcnt=\count91
+\eabstractbox=\box41
+\ekeywordbox=\box42
+\Pauthorsep=\dimen122
+\abstractbox=\box43
+\keywordbox=\box44
+\Lauthorsep=\dimen123
+\LPauthorsep=\dimen124
+\c@section=\count92
+\c@subsection=\count93
+\c@subsubsection=\count94
+\c@paragraph=\count95
+\c@subparagraph=\count96
+\@hlskip=\skip41
+\verbatimleftmargin=\dimen125
+\verbatimbaselineskip=\dimen126
+\c@figure=\count97
+\c@table=\count98
+\abovecaptionskip=\skip42
+\belowcaptionskip=\skip43
+\@tempboxb=\box45
+\capwidth=\dimen127
+\ecapwidth=\dimen128
+\symmincho=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 2852.
+\bibindent=\dimen129
+\c@profile=\count99
+\mathindent=\dimen130
+\@minsofar=\count100
+\@min=\count101
+\@cite@temp=\count102
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2013/12/28 v0.19 Intelligent cross-referencing
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: dvips.def on input line 94.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/dvips.def
+File: dvips.def 2014/10/14 v3.0j Driver-dependent file (DPC,SPQR)
+))
+\Gin@req@height=\dimen131
+\Gin@req@width=\dimen132
+)
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 ’W
+       %\usepackage{latexsym}
+? 
+! Interruption.
+\GenericError  ...                                
+                                                  \endgroup 
+l.10 ’W
+       %\usepackage{latexsym}
+? 
+
+Class ieicej Warning: Author's name "εε‡―" doesn't have a space.
+
+Missing character: There is no ^^e0 in font cmr9!
+Missing character: There is no ^^80 in font cmr9!
+
+Class ieicej Warning: Author's name "γ‘γ‚“γ„γΰ^^80εη”°" doesn't have a spac
+e.
+
+Missing character: There is no ^^e5 in font cmr9!
+Missing character: There is no ^^80 in font cmr9!
+Missing character: There is no ^^80 in font cmr9!
+
+Class ieicej Warning: Author's name "γ—γ’γ„γαmε^^80^^80γ‚γ“γ‚„γΎ" doesn't
+ have a space.
+
+Missing character: There is no ^^80 in font cmr9!
+
+Class ieicej Warning: Author's name "γ‚γ—γ‡γαUγ€^^80γγαiγA…αJ" doesn't ha
+ve a space.
+
+No file docker.aux.
+\openout1 = `docker.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <9> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 46.
+LaTeX Font Info:    External font `goth9 at8.8711pt' loaded for size
+(Font)              <9> on input line 46.
+LaTeX Font Info:    External font `min8 at8.1318pt' loaded for size
+(Font)              <8> on input line 52.
+[1
+
+
+]
+LaTeX Font Info:    External font `min10 at13.307pt' loaded for size
+(Font)              <12> on input line 52.
+LaTeX Font Info:    External font `min10 at11.089pt' loaded for size
+(Font)              <10.95> on input line 52.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 52.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 52.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 52.
+LaTeX Font Info:    External font `min6 at6.6533pt' loaded for size
+(Font)              <6> on input line 52.
+Missing character: There is no ^^e0 in font cmr10!
+Missing character: There is no ^^80 in font cmr10!
+Missing character: There is no ^^e5 in font cmr10!
+Missing character: There is no ^^80 in font cmr10!
+Missing character: There is no ^^80 in font cmr10!
+Missing character: There is no ^^80 in font cmr10!
+
+Overfull \hbox (120.93246pt too wide) in paragraph at lines 52--52
+[][] 
+ []
+
+LaTeX Font Info:    External font `min10 at9.6104pt' loaded for size
+(Font)              <10> on input line 52.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 52.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 52.
+LaTeX Font Info:    External font `min7 at7.3926pt' loaded for size
+(Font)              <7> on input line 52.
+LaTeX Font Info:    External font `min5 at5.1748pt' loaded for size
+(Font)              <5> on input line 52.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 52.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10.95> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 54.
+LaTeX Font Info:    External font `goth10 at11.089pt' loaded for size
+(Font)              <10.95> on input line 54.
+LaTeX Font Info:    External font `min10 at17.742pt' loaded for size
+(Font)              <17.28> on input line 62.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <8> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 62.
+LaTeX Font Info:    External font `goth8 at8.1318pt' loaded for size
+(Font)              <8> on input line 62.
+
+LaTeX Warning: Reference `ieicej@lastpage' on page 2 undefined on input line 62
+.
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 62.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 62.
+ [2
+
+] [3]
+File: 1_Tentative_user_scenario.pdf Graphic file (type eps)
+
+<1_Tentative_user_scenario.pdf>
+Overfull \hbox (139.97293pt too wide) in paragraph at lines 87--88
+ [] 
+ []
+
+
+LaTeX Warning: Reference `bench_nodes_info' on page 1 undefined on input line 1
+22.
+
+
+LaTeX Warning: Reference `bench_img_l' on page 1 undefined on input line 128.
+
+
+LaTeX Warning: Reference `bench_img_l' on page 1 undefined on input line 129.
+
+
+LaTeX Warning: Reference `bench_set_l' on page 1 undefined on input line 211.
+
+
+Overfull \hbox (10.76173pt too wide) in paragraph at lines 215--228
+[][] 
+ []
+
+File: 2_Total_benchmark_time.pdf Graphic file (type eps)
+<2_Total_benchmark_time.pdf>
+Overfull \hbox (139.97293pt too wide) in paragraph at lines 236--237
+ [] 
+ []
+
+
+LaTeX Warning: Reference `t_bench_t' on page 1 undefined on input line 243.
+
+
+LaTeX Warning: Reference `bench_img_l' on page 1 undefined on input line 243.
+
+[4]
+File: 3_Average_total_benchmark_time.pdf Graphic file (type eps)
+ <3_Average_total_benchmark_time.pdf>
+Overfull \hbox (139.97293pt too wide) in paragraph at lines 250--251
+ [] 
+ []
+
+
+LaTeX Warning: Reference `avg_bench_time' on page 1 undefined on input line 257
+.
+
+
+LaTeX Warning: Reference `lat_band' on page 1 undefined on input line 260.
+
+File: 4_push_and_pull_time.pdf Graphic file (type eps)
+<4_push_and_pull_time.pdf>
+Overfull \hbox (139.97293pt too wide) in paragraph at lines 279--280
+ [] 
+ []
+
+
+LaTeX Warning: Reference `ppt' on page 1 undefined on input line 286.
+
+
+LaTeX Warning: Reference `ppt' on page 1 undefined on input line 288.
+
+
+LaTeX Warning: Reference `ppt' on page 1 undefined on input line 291.
+
+[5]
+Overfull \hbox (67.22939pt too wide) in paragraph at lines 299--312
+[][] 
+ []
+
+
+LaTeX Warning: Reference `t_bench_t' on page 1 undefined on input line 318.
+
+
+LaTeX Warning: Reference `avg_bench_time' on page 1 undefined on input line 318
+.
+
+
+LaTeX Warning: Reference `reg_fail_rate' on page 1 undefined on input line 320.
+
+
+
+LaTeX Warning: Reference `t_bench_t' on page 1 undefined on input line 323.
+
+[6]
+File: 5_pull_time_of_running_docker_registry_2.0.1_on_EC2_nodes.pdf Graphic fil
+e (type eps)
+ <5_pull_time_of_running_docker_registry_2.0.1_on_EC2_nodes.pdf>
+Overfull \hbox (139.97293pt too wide) in paragraph at lines 329--330
+ [] 
+ []
+
+
+LaTeX Warning: Reference `pull_time' on page 1 undefined on input line 337.
+
+
+LaTeX Warning: Reference `pull_time' on page 1 undefined on input line 341.
+
+
+LaTeX Warning: Citation `felter2014updated' on page 7 undefined on input line 3
+56.
+
+(./docker.bbl) [7] [8
+
+
+] (./docker.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2521 strings out of 493777
+ 45227 string characters out of 6151335
+ 145314 words of memory out of 5000000
+ 6042 multiletter control sequences out of 15000+600000
+ 19333 words of font info for 75 fonts, out of 8000000 for 9000
+ 929 hyphenation exceptions out of 8191
+ 27i,13n,22p,1305b,326s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on docker.dvi (8 pages, 34820 bytes).
